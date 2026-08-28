@@ -33,7 +33,7 @@ A simple embedded systems project for controlling an SG90 servo motor wirelessly
 ## Project Demo
 
 The project was tested using an Android smartphone connected to the ESP32 via Bluetooth.
-![Circuit Diagram](BLE-Servo_bb.png)
+![Demo video](VID_20260825_065130.mp4)
 
 
 
