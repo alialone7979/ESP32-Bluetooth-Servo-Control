@@ -4,10 +4,11 @@ A simple embedded systems project for controlling an SG90 servo motor wirelessly
 
 ## Features
 
-- ESP32-based control
-- Bluetooth communication
-- SG90 servo motor control
-- Smartphone-based operation
+- ESP32 Bluetooth communication
+- Wireless servo motor control
+- SG90 servo motor
+- Smartphone control
+- LED status indication
 
 ## Hardware
 
@@ -25,17 +26,21 @@ A simple embedded systems project for controlling an SG90 servo motor wirelessly
 - ESP32Servo Library
 - Bluetooth Serial Terminal
 
-## How It Works
+## Circuit Diagram
 
-The ESP32 receives commands from a smartphone via Bluetooth.
-Based on the received command, the servo motor moves to the corresponding position.
+![Circuit Diagram](BLE-Servo_bb.png)
 
 ## Project Demo
 
-![Project](ESP32-Bluetooth-Servo.jpg)
+The project was tested using an Android smartphone connected to the ESP32 via Bluetooth.
+
+## How It Works
+
+The ESP32 receives commands from the smartphone through Bluetooth.
+Based on the received command, the SG90 servo motor moves to the corresponding position.
 
 ## Author
 
-Ali Ahmadi
+**Ali Ahmadi**
 
 GitHub: [@alialone7979](https://github.com/alialone7979)
